@@ -1,4 +1,62 @@
-/*Add your css code here*/
-div {
-  color: red;
+body {
+  background-position: center;
+  background-color: hsla(10, 100%, 10%, 0.7);
+}/*Add your css code here*/
+.container {
+   margin: 0, auto;
+}
+.nav h1 {
+  background-image: url("floral.jpg");
+  text-align: center;
+  color: hsla(315, 100%, 35%);
+  font-size: 70px;
+  font-family: Calibri;
+  margin: 0;
+  padding: 30px 0;
+  word-spacing: 0.7em;
+  letter-spacing: 0.3em;
+
+}
+.nav #options a {
+  text-decoration: none;
+  margin: 0 75px 40px 75px;
+  font-weight: bold;
+  color: hsla(200, 100%, 50%, 0.5);
+  font-size: 25px;
+}
+.nav li {
+    display: inline-flex;
+}
+.nav li :hover {
+  background-color: hsla(350, 100%, 10%, 0.7);
+  padding: 5px, 7px;
+  border-radius: 10px;
+ }
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+div p {
+  text-align: center;
+  font-size: 30px;
+}
+.lead {
+text-align: center;
+}
+.lead img {
+  height: 350px;
+  width: 300px;
+  border-radius: 100%;
+}
+.end p {
+color: hsl(360, 50%, 10%);
+font-size: 20px;
+background-color: hsla(180, 20%, 90%, 0.3);
+margin: 0 43%;
+display: inline-block;
+}
+.intro img {
+height: 300px;
+width: 250px;
+margin: 10px 37px;
 }
